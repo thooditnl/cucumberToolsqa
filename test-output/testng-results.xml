@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: LogIn_Test.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Login Action</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Successful Login with Valid Credentials</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Successful Login with Valid Credentials</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is on Home Page (passed : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters &quot;&lt;username&gt;&quot; and &quot;&lt;password&gt;&quot; (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User LogOut from the Application (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed LogOut Successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  i closed at 9.65 pm (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Successful Login with Valid Credentials</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is on Home Page (passed : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters &quot;thoodi&quot; and &quot;cisd6bv)tOey(lU2&quot; (passed : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User LogOut from the Application (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed LogOut Successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  i closed at 9.65 pm (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="77170" started-at="2017-02-19T17:17:21Z" finished-at="2017-02-19T17:18:39Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:Runner.TestRunner@2d209079]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="cucumberToolsqa" duration-ms="77170" started-at="2017-02-19T17:17:21Z" finished-at="2017-02-19T17:18:39Z">
+      <class name="Runner.TestRunner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:Runner.TestRunner@2d209079]" name="run_cukes" duration-ms="77149" started-at="2017-02-19T12:17:21Z" description="Runs Cucumber Features" finished-at="2017-02-19T12:18:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: LogIn_Test.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Login Action</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Successful Login with Valid Credentials</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Successful Login with Valid Credentials</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is on Home Page (passed : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters &quot;&lt;username&gt;&quot; and &quot;&lt;password&gt;&quot; (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User LogOut from the Application (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed LogOut Successfully (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  i closed at 9.65 pm (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Successful Login with Valid Credentials</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is on Home Page (passed : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters &quot;thoodi&quot; and &quot;cisd6bv)tOey(lU2&quot; (passed : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User LogOut from the Application (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed LogOut Successfully (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  i closed at 9.65 pm (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- cucumberToolsqa -->
+  </suite> <!-- Default Suite -->
+</testng-results>

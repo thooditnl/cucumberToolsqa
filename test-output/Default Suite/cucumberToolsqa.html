@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>TestNG:  cucumberToolsqa</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>cucumberToolsqa</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Feb 19 12:17:21 EST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>77 seconds (77170 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.TestRunner.run_cukes()'><b>run_cukes</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Features<br/>
+<a href="#Output-1308927845" onClick='toggleBox("Output-1308927845", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1308927845" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1308927845">
+<div "featureFile">Feature File: LogIn_Test.feature</div><br/>
+<div "feature">Feature: Login Action</div><br/>
+<div "scenarioOutline">Scenario Outline: Successful Login with Valid Credentials</div><br/>
+<div "scenario">Scenario Outline: Successful Login with Valid Credentials</div><br/>
+<div "result">Given  User is on Home Page (passed : 9s)</div><br/>
+<div "result">When  User Navigate to LogIn Page (passed : 0s)</div><br/>
+<div "result">And  User enters &quot;&lt;username&gt;&quot; and &quot;&lt;password&gt;&quot; (passed : 6s)</div><br/>
+<div "result">Then  Message displayed Login Successfully (passed : 0s)</div><br/>
+<div "result">When  User LogOut from the Application (passed : 6s)</div><br/>
+<div "result">Then  Message displayed LogOut Successfully (passed : 0s)</div><br/>
+<div "result">Then  i closed at 9.65 pm (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Successful Login with Valid Credentials</div><br/>
+<div "result">Given  User is on Home Page (passed : 8s)</div><br/>
+<div "result">When  User Navigate to LogIn Page (passed : 0s)</div><br/>
+<div "result">And  User enters &quot;thoodi&quot; and &quot;cisd6bv)tOey(lU2&quot; (passed : 10s)</div><br/>
+<div "result">Then  Message displayed Login Successfully (passed : 0s)</div><br/>
+<div "result">When  User LogOut from the Application (passed : 6s)</div><br/>
+<div "result">Then  Message displayed LogOut Successfully (passed : 0s)</div><br/>
+<div "result">Then  i closed at 9.65 pm (passed : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>77</td>
+<td>Runner.TestRunner@2d209079</td></tr>
+</table><p>
+</body>
+</html>

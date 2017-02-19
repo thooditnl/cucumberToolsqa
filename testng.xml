@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Validate that Admin can View Accounts selected" parallel="tests" thread-count="2">
+<test name="Validate that Admin can View Accounts selected" enabled="true" preserve-order="true">
+    <classes>
+        <class name="Runner.TestRunner" />
+    </classes>
+</test>
+
+</suite>
