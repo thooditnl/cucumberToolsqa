@@ -4,10 +4,8 @@ Feature: Login Action
     Given User is on Home Page
     When User Navigate to LogIn Page
     And User enters Credentials to LogIn
-      | username   | password        |
+      | Username   | Password        |
       | thoodi     | cisd6bv)tOey(lU2|
-      | kirantsdet | z%lhOh0ykT^tGGij|
-
     Then Message displayed Login Successfully
     When User LogOut from the Application
     Then Message displayed LogOut Successfully

@@ -1,5 +1,6 @@
 package StepDefinations2;
 
+import com.google.common.collect.Table;
 import cucumber.api.DataTable;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -48,13 +49,10 @@ public class Test_Steps_DataTable2 {
 
     @When("^User enters Credentials to LogIn$")
     public void user_enters_testuser_and_Test(List<Credentials>  usercredentials) throws InterruptedException {
-        usercredentials = new ArrayList<Credentials>();
-     //   usercredentials = table.asList(Credentials.class);
         for (Credentials credentials : usercredentials) {
             driver.findElement(By.id("log")).sendKeys(credentials.getUsername());
             driver.findElement(By.id("pwd")).sendKeys(credentials.getPassword());
             driver.findElement(By.id("login")).click();
-            Thread.sleep(2000);
         }
     }
 
