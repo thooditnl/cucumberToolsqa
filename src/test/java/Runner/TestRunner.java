@@ -23,6 +23,7 @@ public class TestRunner extends AbstractTestNGCucumberTests{
     }
 }
 //Testing git push
+//Testing merge verification
 
 
 /*
